@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  background-color:#336699;
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 4em;
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#anadirTarea{
+  text-align: center;
+}
+h1{
+  margin: 0px 10px;
+  font-family: fantasy;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+#crear-tablero{
+  font-family: monospace;
+  margin: 0px 20px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 12em;
+}
+#boton-anadir{
+  background-color:  #8BC34A;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  font-family: monospace;
+}
+#boton-anadir:hover{
+  cursor: pointer;
+  background-color: #75a73d;
+}
+#tablero{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.card{
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px  rgba(0,0,0,.6);
+  width: 25%;
+  height: 100%;
+}
+.card #title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card .button{
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #336699;
+}
+.card .button:hover{
+  cursor: pointer;
+}
+.card h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.card #tareas{
+  margin: 10px;
+}
+#acciones{
+  display: flex;
+  justify-content: center;
+}
+#formularioAddTarea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formTarea{
+  margin: 2px;
+  padding: 5px;
+  border: none;
+  font-family: monospace;
+  width: 70%;
+  outline: none;
+  border-radius: 5px;
+}
+#botonAddTarea{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #336699;
+  color: white;
+}
+#cancelar{
+  background-color: rgb(181, 1, 1);
+  margin: 3px;
+  color:  white;
+}
+#tarea{
+  margin: 20px;
+  padding:10px;
+  background-color:#f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: monospace;
+}
+#tarea>.name{
+  font-size: 18px;
+  font-weight: bold;
+}
+#tarea>p{
+  font-size: 15px;
+  margin: 4px;
+}
+#footer{
+  height: 50px;
+  width: 100%;
+  background-color:#336699;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+#seccion-tareas>h3{
+  text-align:center;
+}

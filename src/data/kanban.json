@@ -1,0 +1,30 @@
+{
+  "board": [
+    {
+      "id": "6500",
+      "name": "Tareas por hacer"
+    },
+    {
+      "id": "b038",
+      "name": "Tareas en Proceso"
+    },
+    {
+      "id": "c399",
+      "name": "Tareas Realizadas"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "9068",
+      "name": "Ir a Ensayar",
+      "description": "Ir a ensayar con la banda el martes",
+      "idBoard": "6500"
+    },
+    {
+      "id": "cc97",
+      "name": "Kanban",
+      "description": "Terminar kanban",
+      "idBoard": "b038"
+    }
+  ]
+}
