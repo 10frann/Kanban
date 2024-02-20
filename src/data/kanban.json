@@ -7,23 +7,19 @@
     {
       "id": "b038",
       "name": "Tareas en Proceso"
-    },
-    {
-      "id": "c399",
-      "name": "Tareas Realizadas"
     }
   ],
   "tareas": [
     {
-      "id": "9068",
-      "name": "Ir a Ensayar",
-      "description": "Ir a ensayar con la banda el martes",
+      "id": "194d",
+      "name": "Sacar el curso",
+      "description": "jeje",
       "idBoard": "6500"
     },
     {
-      "id": "cc97",
-      "name": "Kanban",
-      "description": "Terminar kanban",
+      "id": "a814",
+      "name": "Hola",
+      "description": "que tal",
       "idBoard": "b038"
     }
   ]

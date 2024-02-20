@@ -60,7 +60,7 @@ export const Task = ({tarea, setTareas, tareas, urlTarea}) => {
                 <input type="text" className='formTarea' name="descripcion-tarea" id="descripcion-tarea" placeholder='Descripción de la tarea...' value={descripcionTarea} onChange={handleDescripcionTarea} />
                 <p>
                   <input type="submit" className="button" value="Editar" id='botonAddTarea'/>
-                  <button type="button" id='cancelar' onClick={handleClickEditCancelar}>Cancelar</button>
+                  <button type="button" id='cancelar' className="button" onClick={handleClickEditCancelar}>Cancelar</button>
                 </p>
             </form>
             }

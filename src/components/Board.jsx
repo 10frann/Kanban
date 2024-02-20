@@ -27,6 +27,7 @@ export const Board = ({board, value, setBoard, tareas, setTarea, urlTarea, urlBo
         setDescripcionTarea(event.target.value)
       }
       const handleColor = (event) => {
+        console.log("cambia");
         setColor(event.target.value)
       }
 
@@ -93,7 +94,7 @@ export const Board = ({board, value, setBoard, tareas, setTarea, urlTarea, urlBo
               <input type="text" className='formTarea' name="descripcion-tarea" id="descripcion-tarea" placeholder='Descripción de la tarea...' onChange={handleDescripcionTarea} />
               <p>
                   <input type="submit" className="button" value="Añadir" id='botonAddTarea'/>
-                  <button type="button" id='cancelar' onClick={() => handleClickCancelarTarea(value.id)}>Cancelar</button>
+                  <button type="button" id='cancelar' className="button" onClick={() => handleClickCancelarTarea(value.id)}>Cancelar</button>
               </p>
             </form>
             }
@@ -109,7 +110,7 @@ export const Board = ({board, value, setBoard, tareas, setTarea, urlTarea, urlBo
         </div>
         <div id="acciones">
         <button type="button" className="button" onClick={() => deleteBoard(value.id)}>❌</button>
-        <input type="color" className="button" onChange={handleColor}/>
+        <input type="color" className="button" onChange={handleColor} />
         </div>
     </div>
     );
